@@ -14,3 +14,5 @@
 主要是为了了解游戏实现原理写着玩的，有空的话准备看看git上其他人怎么实现的。
 
 游戏界面如下：
+![image]
+(https://github.com/masterwugui/simpleTetris/blob/master/game.png)
