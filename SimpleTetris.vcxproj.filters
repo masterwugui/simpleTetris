@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{81ff26bc-922b-4687-a9e6-20c99cf0838f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{7c3d824a-c1c5-4f8a-8398-7de866cd24fe}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="方块">
+      <UniqueIdentifier>{4915e494-28f0-4e66-96ee-9d140a6a9136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="地图">
+      <UniqueIdentifier>{a9a85aa8-5a72-429b-af2c-999c7685fcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="地图\工厂">
+      <UniqueIdentifier>{0bff66f2-51b7-442f-98fd-5346a30e6d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="方块\工厂">
+      <UniqueIdentifier>{36509952-e05c-40f3-b780-fa37a52caba9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpletetris.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simpletetris.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simpletetris.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_simpletetris.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMap.cpp">
+      <Filter>地图</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSimpleFactory.cpp">
+      <Filter>地图\工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockRandomFactory.cpp">
+      <Filter>方块\工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TetrisWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TetrisWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisWidget.cpp">
+      <Filter>Form Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+    <ClCompile Include="HillBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+    <ClCompile Include="SBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+    <ClCompile Include="RSBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+    <ClCompile Include="LBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+    <ClCompile Include="RLBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="simpletetris.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simpletetris.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simpletetris.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TetrisWidget.h">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_simpletetris.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="IMap.h">
+      <Filter>地图</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMap.h">
+      <Filter>地图</Filter>
+    </ClInclude>
+    <ClInclude Include="IMapFactory.h">
+      <Filter>地图\工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSimpleFactory.h">
+      <Filter>地图\工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlockFactory.h">
+      <Filter>方块\工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockRandomFactory.h">
+      <Filter>方块\工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="LineBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="HillBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="Sblock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="RSBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="LBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="RLBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
