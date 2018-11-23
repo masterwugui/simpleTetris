@@ -101,6 +101,9 @@
     <ClCompile Include="RLBlock.cpp">
       <Filter>方块</Filter>
     </ClCompile>
+    <ClCompile Include="BaseBlock.cpp">
+      <Filter>方块</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="simpletetris.h">
@@ -160,6 +163,9 @@
       <Filter>方块</Filter>
     </ClInclude>
     <ClInclude Include="RLBlock.h">
+      <Filter>方块</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBlock.h">
       <Filter>方块</Filter>
     </ClInclude>
   </ItemGroup>

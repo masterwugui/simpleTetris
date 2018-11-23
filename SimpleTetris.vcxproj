@@ -71,6 +71,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseBlock.cpp" />
     <ClCompile Include="BaseMap.cpp" />
     <ClCompile Include="BlockRandomFactory.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_simpletetris.cpp">
@@ -129,6 +130,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseBlock.h" />
     <ClInclude Include="BaseMap.h" />
     <ClInclude Include="BlockRandomFactory.h" />
     <ClInclude Include="GeneratedFiles\ui_simpletetris.h" />
